@@ -1,4 +1,4 @@
-# ull-esit-inf-dsi-21-22-prct05-objects-classes-interfaces-Hyssenn
+# Practica 5 DSI Objetos Clases e Interfaces
 ## Introducción
 En esta práctica nos meteremos de lleno en el paradigma de OOP usando typescript, aprenderemos a hacer uso de clases, objetos e interfaces y la utilización de multiples ficheros para guardar cada una de las clases.
 ## Objetivos
