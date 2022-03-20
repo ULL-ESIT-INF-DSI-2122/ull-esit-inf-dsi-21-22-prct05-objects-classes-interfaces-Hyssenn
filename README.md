@@ -124,7 +124,8 @@ export class TypeChecker {
 
 Esta clase se va a encargar de solucionar todo lo relacionado con la efectividad de unos tipos contra otros, para llevar a cabo esto he usado una matriz de tipos siguiendo la que usan en el propio juego de _Pokemon_:
 
-![foto]
+![imagen](https://user-images.githubusercontent.com/79215998/159191090-d21ee2d9-03d2-4459-876c-fa6a1416f245.png)
+
 
 
 Como se puede observar la efectividad se calcula por filas y columnas, siendo la fila el tipo que corresponde al atacante y la columna el tipo que corresponde al que se defiende del ataque, esto quiere decir que cuando un tipo fuego ataca a un tipo agua si unes las 2 coordenadas de fuego y agua encuentras el valor de la efectividad en este caso 1/2. 
@@ -177,3 +178,5 @@ Start va a recibir a los 2 contricantes creo la matriz de efectividad y el prime
 	daño = 50* (daño_atacante / daño_defensor) * efectividad
 
 	La efectividad se calcula con lo explicado anteriormente se le pasa el atacante y el defensor y usando la matriz te va a devolver la efectividad a multiplicar, hago referencia de si los ataques fueron efectivos o no muy efectivos dependiendo de si la efectividad es x2 o x1/2 y por último retorno el daño causado.
+	
+	![imagen](https://user-images.githubusercontent.com/79215998/159191099-a9478372-3050-410d-ba27-ab810de86b43.png)
