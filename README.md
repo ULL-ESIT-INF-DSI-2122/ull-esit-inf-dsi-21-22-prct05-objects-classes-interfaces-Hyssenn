@@ -172,11 +172,11 @@ Start va a recibir a los 2 contricantes creo la matriz de efectividad y el prime
     return damage;
   }
 
-	```
+```
 
-	`attack` recibe los 2 _pokemons_ siendo el primero el que ataca y el segundo el que defiende y se calcula el daño con una simple fórmula que va a ser:
-	daño = 50* (daño_atacante / daño_defensor) * efectividad
+*attack* recibe los 2 _pokemons_ siendo el primero el que ataca y el segundo el que defiende y se calcula el daño con una simple fórmula que va a ser:
+daño = 50* (daño_atacante / daño_defensor) * efectividad
 
-	La efectividad se calcula con lo explicado anteriormente se le pasa el atacante y el defensor y usando la matriz te va a devolver la efectividad a multiplicar, hago referencia de si los ataques fueron efectivos o no muy efectivos dependiendo de si la efectividad es x2 o x1/2 y por último retorno el daño causado.
+La efectividad se calcula con lo explicado anteriormente se le pasa el atacante y el defensor y usando la matriz te va a devolver la efectividad a multiplicar, hago referencia de si los ataques fueron efectivos o no muy efectivos dependiendo de si la efectividad es x2 o x1/2 y por último retorno el daño causado.
 	
-	![imagen](https://user-images.githubusercontent.com/79215998/159191099-a9478372-3050-410d-ba27-ab810de86b43.png)
+![imagen](https://user-images.githubusercontent.com/79215998/159191099-a9478372-3050-410d-ba27-ab810de86b43.png)
